@@ -22,7 +22,7 @@ html,body{
 
 @font-face {
     font-family: 'formularblack_italic';
-    src: url('http://umas.unist.hr/~lgrkovic/DIM2/tipska.arhiva/font/formular-blackitalic-webfont.woff2') format('woff2'),
+    src: url('http://umas.unist.hr/~lgrkovic/DIM2/home.arhiva/font/formular-blackitalic-webfont.woff2') format('woff2'),
          url('font/formular-blackitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -46,7 +46,7 @@ html,body{
 
 @font-face {
     font-family: 'formularbold_italic';
-    src: url('http://umas.unist.hr/~lgrkovic/DIM2/tipska.arhiva/font/formular-bolditalic-webfont.woff2') format('woff2'),
+    src: url('http://umas.unist.hr/~lgrkovic/DIM2/home.arhiva/font/formular-bolditalic-webfont.woff2') format('woff2'),
          url('font/formular-bolditalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -70,7 +70,7 @@ html,body{
 
 @font-face {
     font-family: 'formularlight';
-    src: url('http://umas.unist.hr/~lgrkovic/DIM2/tipska.arhiva/font/formular-light-webfont.woff2') format('woff2'),
+    src: url('http://umas.unist.hr/~lgrkovic/DIM2/home.arhiva/font/formular-light-webfont.woff2') format('woff2'),
          url('font/formular-light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -94,7 +94,7 @@ html,body{
 
 @font-face {
     font-family: 'formularmedium';
-    src: url('http://umas.unist.hr/~lgrkovic/DIM2/tipska.arhiva/font/formular-medium-webfont.woff2') format('woff2'),
+    src: url('http://umas.unist.hr/~lgrkovic/DIM2/home.arhiva/font/formular-medium-webfont.woff2') format('woff2'),
          url('font/formular-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -118,7 +118,7 @@ html,body{
 
 @font-face {
     font-family: 'formularregular';
-    src: url('http://umas.unist.hr/~lgrkovic/DIM2/tipska.arhiva/font/formular-regular-webfont.woff2') format('woff2'),
+    src: url('http://umas.unist.hr/~lgrkovic/DIM2/home.arhiva/font/formular-regular-webfont.woff2') format('woff2'),
          url('font/formular-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -133,13 +133,40 @@ h1{
       margin-bottom:-0.5em;
       margin-top: 0.5em;
       margin-bottom: 0em;
-
+      text-decoration: none !important;
       font-family: 'formularbold';
+      color: black;
 
 
   }
   
   h2{
+      font-size: 0.5em;	
+      color: black;
+      font-family: 'formularmedium';
+      width: 100%;
+
+
+  }
+
+
+
+  
+h6{
+    font-size: 0.4em !important;
+    color: black;
+    font-family: 'formularmedium';
+    width: 100%;
+    margin-top: 0em;
+    margin-bottom: 0,1em;
+    white-space: nowrap ;
+
+    
+
+
+}
+
+  h3{
       font-size: 1.2em;	
       color: white;
       font-family: 'formularmedium';
@@ -148,9 +175,24 @@ h1{
 
   }
   
+
+h4{
+  width: 100%;
+  text-align: center;
+  font-size: 1.33em;
+  line-height: 0.2em;
+  margin-bottom:-0.5em;
+  margin-top: 0.3em;
+  margin-bottom: 0em;
+  text-decoration: none !important;
+  font-family: 'formularbold';
+  color: black;}
+
+
   
   p{
       font-size: 1.1em;
+      line-height: 1.2em;
       color:black;
       font-family: 'formularregular';
 
@@ -165,28 +207,15 @@ padding-right: 1.1em;
 
 }
 
-footer{
-    text-align: left;
-    float: left;
-    padding-bottom: 1.3em;
-    font-size: 0.9em !important;
-    line-height: 0.8em !important;
-    color: rgb(37,37,37); 
-    width: 100%;
-    margin-top: 6em;
-      margin-bottom: 3em;
-      font-family: 'formularregular';
-
-    text-decoration: none;
-
-}
 nav {
-     margin-top: 3em;
-     margin-bottom: 14em;
-     display: flex;
-     justify-content: center;
-     flex-wrap: wrap;
+    margin-top: 3em;
+    margin-bottom: 14em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
 }
+
 nav li{
     font-size: 1.2em;
     display: inline;
@@ -240,8 +269,7 @@ nav ul {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    backgroŠTO? o namaund-color: red;
-ŠTO? o nama  }
+      }
   
 
   .container:hover .overlay {
@@ -341,6 +369,8 @@ nav ul {
     max-width: 30%;
     padding-left: 1.3em;
     padding-right: 1.3em;
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
     /*float: left;
     overflow: hidden;
     cursor: pointer;*/
@@ -421,4 +451,261 @@ nav ul {
 .shape a {
 	z-index: 2;
 	padding: 0;
+}
+
+.socials {
+color: black;
+transition: 0,3s;
+text-decoration: none;margin: 0 10px;
+}
+
+.socials :hover {
+color: #E30613;
+}
+
+.footer{
+  text-align: left;
+  float: left;
+  padding-bottom: 1.3em;
+  font-size: 0.9em !important;
+  line-height: 0.8em !important;
+  color: white; 
+  width: 100%;
+  margin-top: 10em;
+   margin-bottom: 6em;
+  font-family: 'formularregular';
+  text-decoration: none;
+
+}
+
+.footer_cont {
+  float:left;
+  font-size: 1em;
+  width: 30%;
+  text-align: center;
+
+}
+
+.footer_cont2 {
+  float:left;
+  font-size: 1.2em;
+  width: 33%;
+  text-align: center;
+
+}
+
+.footer_cont3 {
+  float:left;
+  width: 30%;
+  text-align: center;
+color: black;
+}
+
+
+
+a {
+  color: black;
+  size: 3em;
+  font-size: 3em;
+margin: 0 10px;
+text-decoration: none;
+}
+
+a :hover {
+  color: white;
+}
+
+.najnovije {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom:2em ;
+  margin-top:2em ;
+
+
+}
+ 
+.postContent .hidden .blue .a {
+  font-size: 1em;
+}
+
+
+@media only screen and (max-width: 1300px){
+
+
+  .post {
+    width: 29%;
+    max-width: 27%;
+    padding-left: 1.3em;
+    padding-right: 1.3em;
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+    
+  }
+  h3{
+    font-size: 1.1em;	
+    color: white;
+    font-family: 'formularmedium';
+    width: 100%;
+}
+
+p{
+  font-size: 1em;
+  line-height: 1.25em;
+  color:black;
+  font-family: 'formularregular';
+
+
+}
+}
+
+@media only screen and (max-width: 990px){
+
+
+  .post {
+    width: 42%;
+    max-width: 50%;
+    padding-left: 1.3em;
+    padding-right: 1.3em;
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+  }
+  h6{
+    font-size: 0.4em !important;
+    color: black;
+    font-family: 'formularmedium';
+    width: 100%;
+    margin-top: 0em;
+    margin-bottom: 0,1em;
+    white-space: nowrap ;
+
+  
+}
+
+
+
+h2{
+  font-size: 0.4em;	
+  color: black;
+  font-family: 'formularmedium';
+  width: 100%;
+
+
+}
+  h3{
+      font-size: 1.2em;	
+      color: white;
+      font-family: 'formularmedium';
+      width: 100%;
+
+
+  }
+  
+  .najnovije {
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: 700;
+    margin-bottom:2em ;
+    margin-top:2em ;
+  
+  
+  }
+h4{
+  width: 100%;
+  text-align: center;
+  font-size: 1em;
+  line-height: 0.2em;
+  margin-bottom:-0.5em;
+  margin-top: 0.3em;
+  margin-bottom: 0em;
+  text-decoration: none !important;
+  font-family: 'formularbold';
+  color: black;}
+}
+
+@media only screen and (max-width: 650px){
+
+
+  .post {
+    width: 90%;
+    max-width: 90%;
+    padding-left: 1.3em;
+    padding-right: 1.3em;
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+  }
+  p{
+    font-size: 1.1em;
+    line-height: 1.2em;
+    color:black;
+    font-family: 'formularregular';
+  
+  
+  }
+
+  .footer{
+    text-align: left;
+    float: left;
+    padding-bottom: 1.3em;
+    font-size: 0.9em !important;
+    line-height: 0.8em !important;
+    color: white; 
+    width: 100%;
+    margin-top: 10em;
+     margin-bottom: 6em;
+    font-family: 'formularregular';
+    text-decoration: none;
+  
+  }
+  
+  .footer_cont {
+    float:left;
+    font-size: 1em;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2em;
+
+  
+  }
+  
+  .footer_cont2 {
+    float:left;
+    font-size: 1.2em;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1em;
+
+  
+  }
+  
+  .footer_cont3 {
+    float:left;
+    width: 100%;
+    text-align: center;
+  color: black;
+  padding-bottom:1em;
+  }
+
+}
+
+.navSub {
+	position: absolute;
+	z-index: 10;
+	text-align: center;
+}
+
+nav ul.navSub {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	top: 60%;
+}
+
+.square {
+	top: 50px;
+}
+
+.circle {
+	left: 30px;
+	bottom: 20;
 }
