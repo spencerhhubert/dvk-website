@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="tipska.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="tipska.js" type="text/Javascript">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="omot">
+
+    <header>
+        <h1> DVK </h1>
+    </header>
+<!--
+    <svg version="1.1" id="koteks" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    viewBox="0 0 595.28 297.33" style="enable-background:new 0 0 595.28 297.33;" xml:space="preserve">
+ <style type="text/css">
+   .st0{opacity:0.5;fill:#FFDE00;}
+   .st1{fill:#FFDE00;}
+   .st2{fill:#FFFFFF;stroke:#EDEDED;stroke-width:2.223;stroke-miterlimit:10;}
+   .st3{fill:#1E1E1C;}
+   .st4{stroke:#FFFFFF;stroke-width:0.5;stroke-miterlimit:10;}
+   .st5{fill:#009640;}
+   .st6{fill:#E30613;}
+   .st7{fill:none;stroke:#000000;stroke-miterlimit:10;}
+   .st8{fill:none;stroke:#E30613;stroke-miterlimit:10;}
+   .st9{fill:none;stroke:#FFDE00;stroke-miterlimit:10;}
+   .st10{fill:none;stroke:#2A4B9B;stroke-miterlimit:10;}
+   .st11{fill:none;stroke:#009640;stroke-miterlimit:10;}
+   .st12{fill:#2A4B9B;}
+   .st13{fill:#FFFFFF;}
+   .st14{stroke:#FFFFFF;stroke-width:0.75;stroke-miterlimit:10;}
+   .st15{fill:#DADADA;}
+   .st16{fill:none;stroke:#000000;stroke-miterlimit:10;stroke-dasharray:6.039,6.039;}
+   .st17{fill:none;stroke:#000000;stroke-miterlimit:10;stroke-dasharray:6.056,6.056;}
+   .st18{fill:#EDEDED;}
+   .st19{fill:#B2B2B2;}
+   .st20{fill:#706F6F;}
+ </style>
+ <g id="Layer_1">
+   
+     <rect x="78.58" y="80.58" transform="matrix(0.9779 0.2091 -0.2091 0.9779 27.8209 -22.1191)" class="st12" width="79.93" height="79.93"/>
+   <circle class="st6" cx="356.74" cy="132.18" r="45.09"/>
+   <polygon class="st1" points="248.26,171.05 299,193.07 254.56,226 210.12,258.94 203.81,203.98 197.51,149.03 	"/>
+   
+     <rect x="406.58" y="155.44" transform="matrix(0.7451 -0.667 0.667 0.7451 -4.777 355.8274)" class="st5" width="113" height="57.45"/>
+ 
+    </g>
+    </svg>-->
+    <nav>
+        <ul>
+            <li class="shape square"><a href="tipska.html#section1">E TO? o nama</a></li>
+            <li class="shape triangle"><a href="tipska.html#section2">TKO? radovi</a></li>
+            <li class="shape circle"><a href="tipska.html#section3">KADA? aktivnosti</a></li>
+            <li class="shape rectangle"><a href="tipska.html#section4">KAKO? studij</a></li>
+
+        </ul>
+    </nav>
+    <div class="posts">
+	    <div class="post" onclick="stateChange('post1')">
+	    	<span class="title">P R O Č I T A J</span>
+	    	<div class="container">
+	      		<img src="brutalizam.JPG" alt="brutalism" class="image">
+	      		<div class="overlay red">
+				<div class="text">
+					<h2>Zaboravljeni div brutalizma – Luka Grković [Fotografija]</h2>
+					<p class="date">
+						<i>03.05.2021.</i>
+					</p>
+				</div>
+	      		</div>
+	    	</div>
+
+	    	<div class="postContent hidden red" id="post1">
+			<p>Za zadatak arhitekture na trećoj godini fotografije Luka Grković se odlučio posvetiti 
+				<strong> brutalizmu na području Hrvatske. </strong>Ovih nekoliko slika prikazuju brutalistički 
+				spomenik ustanku naroda Banije i Korduna koji i nakon 40 godina ponosno stoji na Petrovcu, vrhu 
+				Petrove gore.
+			</p>
+			<img src="brutalizam2.JPG" alt="Fotografija" class="image">
+			<img src="brutalizam3.JPG" alt="Fotografija" class="image">
+			<p> Mentori doc. art. Mirko Pivčevič i struč. sur. Vicko Vidan. </p>
+	      	</div>
+
+	    </div>
+	    
+	    <div class="post" onclick="stateChange('post2')">
+	    	<span class="title">P R O Č I T A J</span>
+	    	<div class="container">
+	      		<img src="brutalizam.JPG" alt="brutalism" class="image">
+	      		<div class="overlay blue">
+				<div class="text">
+					<h2>Zaboravljeni div brutalizma – Luka Grković [Fotografija]</h2>
+					<p class="date">
+						<i>03.05.2021.</i>
+					</p>
+				</div>
+	      		</div>
+	    	</div>
+	    	<div class="postContent hidden blue" id="post2">
+			<p>Za zadatak arhitekture na trećoj godini fotografije Luka Grković se odlučio posvetiti 
+				<strong> brutalizmu na području Hrvatske. </strong>Ovih nekoliko slika prikazuju brutalistički 
+				spomenik ustanku naroda Banije i Korduna koji i nakon 40 godina ponosno stoji na Petrovcu, vrhu 
+				Petrove gore.
+				<img src="brutalizam2.JPG" alt="Fotografija" class="image">
+				<img src="brutalizam3.JPG" alt="Fotografija" class="image">
+				<p> Mentori doc. art. Mirko Pivčevič i struč. sur. Vicko Vidan. </p>
+			</p>
+	      	</div>
+	    </div>
+
+	 <div class="post" onclick="stateChange('post3')">
+	    	<span class="title">P R O Č I T A J</span>
+	    	<div class="container">
+	      		<img src="brutalizam.JPG" alt="brutalism" class="image">
+	      		<div class="overlay yellow">
+				<div class="text">
+					<h2>Zaboravljeni div brutalizma – Luka Grković [Fotografija]</h2>
+					<p class="date">
+						<i>03.05.2021.</i>
+					</p>
+				</div>
+	      		</div>
+	    	</div>
+	    	<div class="postContent hidden yellow" id="post3">
+			<p>Za zadatak arhitekture na trećoj godini fotografije Luka Grković se odlučio posvetiti 
+				<strong> brutalizmu na području Hrvatske. </strong>Ovih nekoliko slika prikazuju brutalistički 
+				spomenik ustanku naroda Banije i Korduna koji i nakon 40 godina ponosno stoji na Petrovcu, vrhu 
+				Petrove gore.
+				<img src="brutalizam2.JPG" alt="Fotografija" class="image">
+				<img src="brutalizam3.JPG" alt="Fotografija" class="image">
+				<p> Mentori doc. art. Mirko Pivčevič i struč. sur. Vicko Vidan. </p>
+			</p>
+	      	</div>
+	    </div>
+
+	<div class="post" onclick="stateChange('post4')">
+	    	<span class="title">P R O Č I T A J</span>
+	    	<div class="container">
+	      		<img src="brutalizam.JPG" alt="brutalism" class="image">
+	      		<div class="overlay green">
+				<div class="text">
+					<h2>Zaboravljeni div brutalizma – Luka Grković [Fotografija]</h2>
+					<p class="date">
+						<i>03.05.2021.</i>
+					</p>
+				</div>
+	      		</div>
+	    	</div>
+	    	<div class="postContent hidden green" id="post4">
+			<p>Za zadatak arhitekture na trećoj godini fotografije Luka Grković se odlučio posvetiti 
+				<strong> brutalizmu na području Hrvatske. </strong>Ovih nekoliko slika prikazuju brutalistički 
+				spomenik ustanku naroda Banije i Korduna koji i nakon 40 godina ponosno stoji na Petrovcu, vrhu 
+				Petrove gore.
+				<img src="brutalizam2.JPG" alt="Fotografija" class="image">
+				<img src="brutalizam3.JPG" alt="Fotografija" class="image">
+				<p> Mentori doc. art. Mirko Pivčevič i struč. sur. Vicko Vidan. </p>
+			</p>
+	      	</div>
+	    </div>
+    <!--
+    <div class="post">
+      <button id="button" onclick="showhide()">P R O Č I T A J</button>
+    <div class="container">
+        
+      <img src="brutalizam.JPG" alt="brutalism" class="image">
+      <div class="overlay" class="red">
+        <div class="text"><h2>Zaboravljeni div brutalizma – Luka Grković [Fotografija]</h2>     <p class="date"> <i>03.05.2021.</i></p>
+        </div>
+      </div>
+    </div>
+    <div id="newpost"  class="hidden">
+        <p>Za zadatak arhitekture na trećoj godini fotografije Luka Grković se odlučio posvetiti <strong> brutalizmu na području Hrvatske. </strong>Ovih nekoliko slika prikazuju brutalistički spomenik ustanku naroda Banije i Korduna koji i nakon 40 godina ponosno stoji na Petrovcu, vrhu Petrove gore.<img src="brutalizam2.JPG" alt="Fotografija" class="image">
+            <img src="brutalizam3.JPG" alt="Fotografija" class="image">
+            <p> Mentori doc. art. Mirko Pivčevič i struč. sur. Vicko Vidan. </p>
+    </p>
+      </div>
+    </div>
+-->
+
+
+
+    <div class="post">
+        <button id="button" onclick="showhid()">P R O Č I T A J</button>
+      <div class="container" >
+          
+        <img src="TENIS.JPG" alt="brutalism" class="image">
+        <div class="overlay" >
+          <div class="text">        <h2>"Color blocking" – Luka Grković [Fotografija 2]  </h2>       <p class="date"> 02.04.2021.</p>
+          </div>
+        </div>
+      </div>
+      <div id="posttwo"  class="hidden">
+        
+      </p> Fotografija iz vježbe "color bloking". Mentori doc. art. Mirko Pivčevič i struč. sur. Vicko Vidan.
+        </div>
+      </div>
+
+
+
+
+    
+
+      <div class="post">
+        <button id="button" onclick="showh()">P R O Č I T A J</button>
+      <div class="container">
+          
+        <img src="zelenaknjiga.png" alt="brutalism" class="image">
+        <div class="overlay">
+          <div class="text"><h2>Knjiga standarda "Neo GEO" – Marko Grgić [GO2]</h2>   <p class="date"> 24.01.2021.</p>
+          </div>
+        </div>
+      </div>
+      <div id="postforth"  class="hidden">
+        <p> Klement Gribergović na drugoj godini Layouta 2 sa profesorom doc. art. Igorom Čaljkušićem radi na dizajnu koji tesira fludinosti grida i utjecaj razmještaja </p>
+        </div>
+      </div>
+
+
+
+      <div class="post">
+        <button id="button" onclick="showhi()">P R O Č I T A J</button>
+      <div class="container">
+          
+        <img src="boje.jpeg" alt="brutalism" class="image">
+        <div class="overlay">
+          <div class="text"><h2>UI Animation Libraries – Klement Gribergović [Layout 3]</h2>   <p class="date"> 13.02.2021.</p>
+          </div>
+        </div>
+      </div>
+      <div id="postthird"  class="hidden">
+        <p> Klement Gribergović na drugoj godini Layouta 2 sa profesorom doc. art. Igorom Čaljkušićem radi na dizajnu koji tesira fludinosti grida i utjecaj razmještaja elemenata layouta na brzinu pamćenja paterna slaganja informacija.</p>
+      </p>
+        </div>
+      </div>
+
+
+      <div class="post">
+        <button id="button" onclick="sho()">P R O Č I T A J</button>
+      <div class="container">
+          
+        <img src="packaging&#32;design.png" alt="brutalism" class="image">
+        <div class="overlay">
+          <div class="text"><h2>Pakiranje "EX Jubile Softcandy" –  Ana Boro [Layout 2]</h2>   <p class="date"> 24.01.2021.</p>
+          </div>
+        </div>
+      </div>
+      <div id="postsixth"  class="hidden">
+        <p>U ovoj informativnoj trominutnoj stop-motion animaciji vidjet će te ukratko koji su koraci potrebni za upisati Dizajn Vizualnih Komunikacija.</p>
+      </p>
+        </div>
+      </div>
+
+
+      
+      <div class="post">
+        <button id="button" onclick="show()">P R O Č I T A J</button>
+      <div class="container">
+          
+        <img src="janaslika.jpeg" alt="brutalism" class="image">
+        <div class="overlay">
+          <div class="text"><h2>Koronavirus –  Jana Pitalo [Fotografija 2]</h2>   <p class="date"> 24.01.2021.</p>
+          </div>
+        </div>
+      </div>
+      <div id="postfifth"  class="hidden">
+        <p> Klement Gribergović na drugoj godini Layouta 2 sa profesorom doc. art. Igorom Čaljkušićem radi na dizajnu koji tesira fludinosti grida i utjecaj razmještaja </p>
+        </div>
+      </div>
+
+
+
+
+
+     
+      <div class="post">
+        <button id="button" onclick="sho()">P R O Č I T A J</button>
+      <div class="container">
+          
+        <img src="vizitka.png" alt="brutalism" class="image">
+        <div class="overlay">
+          <div class="text"><h2>Olivetti Versa – Vizitke [GO1] </h2>   <p class="date"> 24.01.2021.</p>
+          </div>
+        </div>
+      </div>
+      <div id="postsixth"  class="hidden">
+        <p>U ovoj informativnoj trominutnoj stop-motion animaciji vidjet će te ukratko koji su koraci potrebni za upisati Dizajn Vizualnih Komunikacija.</p>
+      </p>
+        </div>
+      </div>
+
+
+
+
+
+     
+      <div class="post">
+        <button id="button" onclick="sho()">P R O Č I T A J</button>
+      <div class="container">
+          
+        <img src="klaramaska.png" alt="brutalism" class="image">
+        <div class="overlay">
+          <div class="text"><h2>Maska – Klara Pervan [Ilustracija 1] </h2>   <p class="date"> 24.01.2021.</p>
+          </div>
+        </div>
+      </div>
+      <div id="postsixth"  class="hidden">
+        <p>U ovoj informativnoj trominutnoj stop-motion animaciji vidjet će te ukratko koji su koraci potrebni za upisati Dizajn Vizualnih Komunikacija.</p>
+      </p>
+        </div>
+      </div>
+     
+
+
+
+
+
+
+     
+      <div class="post">
+        <button id="button" onclick="sho()">P R O Č I T A J</button>
+      <div class="container">
+          
+        <img src="http://umas.unist.hr/~lgrkovic/DIM2/tipska.arhiva/pticec%CC%8Cas%CC%8Ca.png" alt="brutalism" class="image">
+        <div class="overlay">
+          <div class="text"><h2>Proljetne ptice – Luka Grković [Ilustracija 2]</h2>   <p class="date"> 24.01.2021.</p>
+          </div>
+        </div>
+      </div>
+      <div id="postsixth"  class="hidden">
+        <p>U ovoj informativnoj trominutnoj stop-motion animaciji vidjet će te ukratko koji su koraci potrebni za upisati Dizajn Vizualnih Komunikacija.</p>
+      </p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+      <footer>
+
+        <ul>
+            <li><a href="tipska.html#section1">ŠTO? o nama</a> </li>
+            <li><a href="tipska.html#section2">TKO? radovi </a></li>
+            <li><a href="tipska.html#section3">KADA? aktivnosti</a></li>
+            <li><a href="tipska.html#section4">KAKO? studij</a></li>
+    
+        </ul>
+    
+
+
+        Adresa:
+        Zagrebačka 3, 21000 Split
+        
+        Telefon:
+        +385 21 360 179
+
+        HRV / ENG
+
+
+        <i class="fab fa-facebook-square"></i>
+
+    </footer>
+
+
+
+
+
+
+
+      <script src="http://umas.unist.hr/~lgrkovic/DIM2/tipska.arhiva/test.js"></script>
+      
+      <script src="tipska.js"></script>
+
+
+    </div>
+
+      
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>

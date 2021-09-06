@@ -1,0 +1,419 @@
+
+html,body{
+    font-size: 100%;
+    font-family: 'formularregular';
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility !important;
+    background-color: rgb(247, 247, 247);
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'formularblack';
+    src: url('font/formular-black-webfont.woff2') format('woff2'),
+         url('font/formular-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'formularblack_italic';
+    src: url('http://umas.unist.hr/~lgrkovic/DIM2/tipska.arhiva/font/formular-blackitalic-webfont.woff2') format('woff2'),
+         url('font/formular-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'formularbold';
+    src: url('font/formular-bold-webfont.woff2') format('woff2'),
+         url('font/formular-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'formularbold_italic';
+    src: url('http://umas.unist.hr/~lgrkovic/DIM2/tipska.arhiva/font/formular-bolditalic-webfont.woff2') format('woff2'),
+         url('font/formular-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'formularitalic';
+    src: url('font/formular-italic-webfont.woff2') format('woff2'),
+         url('font/formular-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'formularlight';
+    src: url('http://umas.unist.hr/~lgrkovic/DIM2/tipska.arhiva/font/formular-light-webfont.woff2') format('woff2'),
+         url('font/formular-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'formularlight_italic';
+    src: url('font/formular-lightitalic-webfont.woff2') format('woff2'),
+         url('font/formular-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'formularmedium';
+    src: url('http://umas.unist.hr/~lgrkovic/DIM2/tipska.arhiva/font/formular-medium-webfont.woff2') format('woff2'),
+         url('font/formular-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'formularmedium_italic';
+    src: url('font/formular-mediumitalic-webfont.woff2') format('woff2'),
+         url('font/formular-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'formularregular';
+    src: url('http://umas.unist.hr/~lgrkovic/DIM2/tipska.arhiva/font/formular-regular-webfont.woff2') format('woff2'),
+         url('font/formular-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1{
+    width: 100%;
+      text-align: center;
+      font-size: 4em;
+      line-height: 6rem;
+      margin-bottom:-0.5em;
+      margin-top: 0.5em;
+      margin-bottom: 0em;
+
+      font-family: 'formularbold';
+
+
+  }
+  
+  h2{
+      font-size: 1.2em;	
+      color: white;
+      font-family: 'formularmedium';
+      width: 100%;
+
+
+  }
+  
+  
+  p{
+      font-size: 1.1em;
+      color:black;
+      font-family: 'formularregular';
+
+
+  }
+
+
+  
+  .omot{
+padding-left: 1.1em;
+padding-right: 1.1em;
+
+}
+
+footer{
+    text-align: left;
+    float: left;
+    padding-bottom: 1.3em;
+    font-size: 0.9em !important;
+    line-height: 0.8em !important;
+    color: rgb(37,37,37); 
+    width: 100%;
+    margin-top: 6em;
+      margin-bottom: 3em;
+      font-family: 'formularregular';
+
+    text-decoration: none;
+
+}
+
+nav li{
+    font-size: 1.2em;
+    display: inline;
+    padding: 0em 2em;
+}
+
+nav a {
+    color: rgb(37,37,37);
+    background-color: transparent;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline;
+    padding: .6em 1.8em;
+    transition: .4s ease ;
+    font-family: 'formularbold';
+
+    box-shadow:none ;
+
+}
+
+nav ul {
+    margin-top: 3em;
+    margin-bottom: 14em;
+    width: 100%;
+    display: flex;
+    padding: 0;
+}
+
+
+
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: 17em;
+    object-fit: cover;
+    margin-bottom: 1em;
+    margin-top: 1em;
+
+  }
+  
+
+  .container {
+    position: relative;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    backgroŠTO? o namaund-color: red;
+ŠTO? o nama  }
+  
+
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+
+  .container1 {
+    position: relative;
+  }
+  .overlay1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(245, 245, 0);
+  }
+  
+
+  .container1:hover .overlay1 {
+    opacity: 1;
+  }
+
+
+  .container2 {
+    position: relative;
+  }
+  .overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:rgb(9, 139, 9);
+  }
+  
+
+  .container2:hover .overlay2 {
+    opacity: 1;
+  }
+
+
+
+  .container3 {
+    position: relative;
+  }
+  .overlay3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(10, 10, 224);
+  }
+  
+
+  .container3:hover .overlay3 {
+    opacity: 1;
+  }
+
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.hidden {
+    display : none;
+}
+
+.posts {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.post {
+    width: 30%;
+    max-width: 30%;
+    padding-left: 1.3em;
+    padding-right: 1.3em;
+    /*float: left;
+    overflow: hidden;
+    cursor: pointer;*/
+}
+  
+.post.title {
+  font-family: 'formularitalic';
+  background:transparent;
+  box-shadow: 0px 0px 0px transparent;
+  border:  black;
+  text-shadow: 1px 1px 1px transparent;
+  color: black;
+}
+
+.post.title:hover {
+  font-family: 'formularbold_italic';
+  background: black;
+  box-shadow: 0px 0px 0px transparent;
+  border: 0px solid transparent;
+  text-shadow: 0px 0px 0px transparent;
+  color:white;
+}
+
+.post.title:active {
+  outline: black;
+  border: none;
+}
+
+.post.title:focus {
+  outline: 0;
+}
+
+.post img {
+	margin: 0;
+}
+
+.postContent p {
+	margin: 0;
+	padding: 10px 0 10px 0;
+}
+
+.postContent img {
+	margin: 0;
+	padding: 10px 0 10px 0;
+}
+
+.red {
+	background-color: #E30613;
+}
+
+.yellow {
+	background-color: #FFDE00;
+}
+
+.green {
+	background-color: #009640;
+}
+
+.blue {
+	background-color: #2A4B9B;
+}
+
+.shape {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 1;
+	flex-basis: 80px;
+	padding: 5px;
+	margin: 0px 0px 0px 0px;
+}
+
+.shape svg {
+	position: absolute;
+}
+
+.shape a {
+	z-index: 2;
+	padding: 0;
+}
